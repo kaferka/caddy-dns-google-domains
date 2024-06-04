@@ -174,7 +174,7 @@ const apiBase = "https://acmedns.googleapis.com/v1/acmeChallengeSets/"
 
 // Interface guards
 var (
-	_ caddyfile.Unmarshaler     = (*Provider)(nil)
-	_ caddy.Provisioner         = (*Provider)(nil)
-	_ certmagic.ACMEDNSProvider = (*Provider)(nil)
+	_ caddyfile.Unmarshaler = (*Provider)(nil)
+	_ caddy.Provisioner     = (*Provider)(nil)
+	_ certmagic.DNSProvider = (*Provider)(nil)
 )
