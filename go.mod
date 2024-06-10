@@ -1,4 +1,4 @@
-module github.com/caddy-dns/google-domains
+module github.com/kaferka/caddy-dns-google-domains
 
 go 1.19
 
